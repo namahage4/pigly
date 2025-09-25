@@ -1,0 +1,39 @@
+.header{
+    background: #fff;
+}
+.header__inner{
+    border-bottom: 1px solid #CDCDCD;
+    max-width: 1512px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    line-height: 35px;
+}
+.header__logo{
+    color: #f6b6f4;
+    font-size: 24px;
+    text-decoration: none;
+}
+.header__btn{
+    display: flex;
+}
+.header__btn-goal{
+    margin-right: 20px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #CDCDCD;
+}
+.header__btn-goal--a{
+    text-decoration: none;
+    color: #000;
+}
+.header__btn-logout{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #CDCDCD;
+}
+.header__btn-logout--a{
+    text-decoration: none;
+    color: #000;
+}

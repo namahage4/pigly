@@ -1,0 +1,23 @@
+.main__inner{
+    max-width: 1512px;
+    height: 1039px;
+    margin: 0 auto;
+    background: #F9F9F9;
+    padding: 70px 196px;
+}
+.main__top{
+    background: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.main__top--table-left{
+    border-right: 1px solid #cdcdcd;
+}
+.main__top--table-header{
+    font-weight: normal;
+}
+
+.main__top--table-center{
+    border-right: 1px solid #cdcdcd;
+}

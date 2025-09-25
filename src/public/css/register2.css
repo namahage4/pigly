@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(-225deg, #8c00ff 0%, #f6b6f4 56%, #f671a4 100%);
+}
+h1{
+    color: #f6b6f4;
+}
+.register2__inner{
+    background: #FFF;
+    width: 580px;
+    height: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+.register2-form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register2-form__table{
+    margin: 0 auto;
+    text-align: center;
+}
+.register2-form__table-item--input{
+    width: 450px;
+}
+
+.register2-form__btn-submit{
+    background: linear-gradient(-225deg, #8c00ff 0%, #f6b6f4 56%, #f671a4 100%);
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+}
+.register2-form__btn-submit-a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* error message */
+.register2-form__table-item--message{
+    color: red;
+}
+

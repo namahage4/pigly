@@ -1,0 +1,16 @@
+.main__inner{
+    max-width: 1512px;
+    height: 968px;
+    margin: 0 auto;
+    background: #F9F9F9;
+    padding: 70px 356px;
+    margin-top: 71px;
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.update-form__group-error--p{
+    color: red;
+}
