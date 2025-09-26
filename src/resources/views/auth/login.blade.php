@@ -14,6 +14,7 @@
             <h2>ログイン</h2>
         </div>
         <form action="" class="login-form" method="post">
+            @csrf
             <table class="login-form__table">
                 <tr class="login-form__table-row">
                     <th class="login-form__table-header">メールアドレス</th>
@@ -46,4 +47,3 @@
 </html>
 
 
-<!----------------------   初期体重登録画面、バリテーション   ------------------------------------------------------->

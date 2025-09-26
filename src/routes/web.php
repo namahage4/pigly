@@ -21,10 +21,13 @@ use App\Models\Register;
 // /register/step1 にアクセスでregisterアクション
 Route::get('/register/step1', [RegisterController::class, 'register']);
 // 追加機能
-Route::post('/register/step1', [RegisterController::class, 'create']);
+Route::get('/register/step1', [RegisterController::class, 'create']);
+Route::post('/register/step1', [RegisterController::class, 'store']);
+// Route::post('/register/step1', [RegisterController::class, 'create']);
 
 // /login にアクセスでloginアクション
 Route::get('/login', [RegisterController::class, 'login']);
+
 // //weight_logs にアクセスでindexアクション
 Route::get('/weight_logs', [RegisterController::class, 'index']);
 
