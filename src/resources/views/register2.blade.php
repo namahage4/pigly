@@ -16,7 +16,7 @@
                 STEP2 体重データの入力
             </p>
         </div>
-        <form action="" class="register2-form" method="post">
+        <form action="/register/step2" class="register2-form" method="post">
             @csrf
             <table class="register2-form__table">
                 <tr class="register2-form__table-row">
